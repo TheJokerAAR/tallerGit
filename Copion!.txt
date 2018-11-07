@@ -1,0 +1,107 @@
+package estaciones;
+import java.util.Scanner; 
+public class Estaciones {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("dame el mes en numero");
+        int mes=sc.nextInt();
+        System.out.println("dame el dia");
+        int dia=sc.nextInt();
+        if (mes<1 || mes>12){
+            System.out.println("mes invalido");
+        }
+        if (dia<1 || dia>31){
+            System.out.println("dia invalido");
+        }
+        else
+            
+        if (mes==1){
+            System.out.println("es invierno");
+        }
+        else
+            
+        if (mes==2 & dia>28){
+            System.out.println("dia invalido");
+        }
+        else
+            
+        if (mes==2 & dia>1){
+            System.out.println("es invierno");
+        }
+        else
+            
+        if (mes==3 & dia<20){
+            System.out.println("es invierno");
+        }
+        else
+            
+        if (mes==3 & dia>20){
+            System.out.println("es primavera");
+        }
+        else
+            
+        if (mes==4 & dia>30){
+            System.out.println("dia invalido");
+        }
+        else
+            
+        if (mes==4 & dia<30){
+            System.out.println("es primavera");
+        }
+        else
+            
+        if (mes==5){
+            System.out.println("es primavera");
+        }
+        else
+            
+        if (mes==6 & dia>30){
+            System.out.println("dia invalido");
+        }
+        else
+            
+        if (mes==6 & dia<30){
+            System.out.println("es primavera");
+        }
+        else
+        if (mes==7 & dia<31){
+            System.out.println("es verano");
+        }
+        else
+        if (mes==8 & dia<31){
+            System.out.println("es verano");
+        }
+        else
+        if (mes==9 & dia>30){
+            System.out.println("dia invalido");
+        }
+        else
+        if (mes==9 & dia<22){
+            System.out.println("es verano");
+        }
+        else
+        if (mes==9 & dia>22){
+            System.out.println("es otoño");
+        }
+        else
+        if (mes==10){
+            System.out.println("es otoño");
+        }
+        else
+        if (mes==11 & dia>30){
+            System.out.println("dia invalido");
+        }
+        else
+        if (mes==11 & dia<31){
+            System.out.println("es otoño");
+        }
+        else
+        if (mes==12 & dia<21){
+            System.out.println("es otoño");
+        }
+        else
+        if (mes==12 & dia>21){
+            System.out.println("es invierno");
+        }
+    }
+}
